@@ -1,0 +1,141 @@
+html, body {
+
+    height: 100%;
+  
+    margin: 0;
+    
+  
+  }
+.nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border: black solid 0px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    width: vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    font-family:sans-serif;
+    
+}
+.below{
+   border: 0px solid black;
+   margin-top: 38px;
+   margin-left: 0px;
+   margin-right: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url('./images/karntaka.jpg');
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding:41vh;
+   font-size:x-large;
+   color:skyblue;
+ 
+
+}
+.h1{
+   border: 1px rgb(205, 118, 19) solid; 
+   border-style:double;
+   
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid goldenrod;
+    margin-top: 5px;
+}
+.footer{
+    border: 0px solid greenyellow;
+    background-image: url(./images/karntaka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+#contact{
+    border: 1px solid white;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+}
+input{
+    width: 90%;
+    margin: 10px;
+    margin-right: 20px;
+}
+button{
+    background-color: burlywood;
+    margin-left: 45%;
+    width: 100px;
+    border-radius: 30%;
+
+}
+button:hover{
+    background-color: blanchedalmond;
+    font-size: medium;
+}
+
+.contactss{
+    margin-left: 46%;
+    margin-top: 5px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    border: 3px solid black;
+    margin-right: 690px;
+    background-color: bisque;
+    padding: 3px;
+    
+    
+}
+
+#foot{
+   border: 5px solid black;
+   background-color: skyblue;
+  
+
+}
+@media (max-width: 620px) {
+    body {
+      display: flex;
+      flex-direction: column;
+
+
+    }
+    .below{
+        height: 200px;
+
+    }
+    
+  }
